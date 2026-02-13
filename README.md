@@ -11,7 +11,11 @@ vercel live url: https://smart-bookmark-app-livid.vercel.app/
 - Next.js App Router
 - Supabase (Auth, Database, Realtime)
 - Tailwind CSS
-
+- 
+## Problems Faced
+1. OAuth redirect mismatch  (Fixed by adding correct callback URL)
+2. Realtime not triggering ( Enabled Postgres changes in Supabase)
+3. Users seeing others data ( Solved using RLS policies)
 
 ### Running on localhoast
 -clone github repository
